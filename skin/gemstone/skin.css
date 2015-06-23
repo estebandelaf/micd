@@ -1,0 +1,242 @@
+/*#############################################################
+Name: Gemstone
+Date: 2006-05-30
+Author: Viktor Persson
+URL: http://arcsin.se
+
+Feel free to use and modify but please provide credits.
+#############################################################*/
+
+/* AGREGADO POR DeLaF */
+.center {
+	text-align: center;
+}
+.caratula {
+	float: right;
+	margin: 10px;
+	max-width: 200px;
+}
+p {
+	margin: 10px;
+}
+table {
+	margin: 0px;
+}
+img {
+	border: 0px;
+}
+.admin {
+	text-align: center;
+	margin: 10px;
+}
+.help_box{
+	width: 300px;
+	margin: 10px auto 0px auto;
+	border: 2px solid #000;
+	background-color: #fff;
+	padding: 3px;
+	visibility: hidden;
+	float: right;
+	position: absolute;
+	text-align: justify;
+}
+
+#box_importante {
+	width: 400px;
+	margin: 10px auto 0px auto;
+	border: 2px solid #f00;
+	background-color: #f88;
+	padding: 3px;
+	text-align: center;
+}
+
+.lista li{
+	margin: 0px 10px 10px 10px;
+}
+
+/**********************/
+
+/* Standard element */
+* {
+	margin: 0;
+	padding: 0;
+}
+body {
+	background: #999 url(bg.gif) repeat-y;
+	font-family: Tahoma,sans-serif;
+	font-size: 0.8em;
+	padding-left: 25px;
+}
+p {
+	margin-bottom: 1.2em;
+}
+ul {
+	margin: 0 0 10px 22px;
+}
+li {
+	list-style-image: url(li.gif);
+}
+li, div, p {
+	text-align: justify;
+}
+
+/* Misc */
+#clearer {
+	clear: both;
+}
+#quote {
+	border-left: 4px solid #36C;
+	clear: both;
+	color: #555;
+	display: block;
+	font: italic 1.1em Verdana,serif;
+	margin: 12px 0 12px 16px;
+	padding-left: 12px;
+}
+
+
+/* Top & Header */
+#top {
+	background: url(top.gif);
+	color: #FFF;
+	height: 45px;
+	width: 939px;
+}
+#top h1 {
+	font: bold 2em sans-serif;
+	padding: 8px 16px 0;
+}
+#top h1 a {
+	color: #FFF;
+	padding-right: 20px;
+	text-decoration: none;
+}
+#top h1 span {
+	font: normal 60% Verdana,sans-serif;
+	text-align: right;
+}
+#header {
+	background: url(header.gif); 
+	height: 101px;
+	width: 939px; 
+}
+
+
+/* Menu */
+#menu ul {
+	float: left;
+	margin: 0 1px 0 0;
+}
+#menu li {
+	list-style-image: none;
+}
+#menu a {
+	background: #4B4B4B;
+	color: #DDD;
+	display: block;
+	font-family: sans-serif;
+	font-size: 85%;
+	padding: 5px 0 5px 8px;
+	text-decoration: none;
+	width: 180px;
+}
+#menu a#current {
+	background: #666; color: #FFF;
+}
+#menu a:hover {
+	background: #555; color: #FFF;
+}
+#menu li {
+	list-style-type: none;
+	margin: 0 0 1px 0;
+	padding: 0;
+}
+
+
+/* Left side */
+#content_left {
+	margin: 1px;
+	width: 593px;
+}
+#titulo {
+	background: #0070CD url(bgdate.gif) repeat-x;
+	color: #FFF;
+	font-weight: bold;
+	padding: 10px;
+}
+#newsitem {
+	background: #F0F0F0 url(bg_newsitem.png) repeat-x;
+	border: 1px solid #EEE;
+	border-color: #EEE #EEE #DDD #EEE;
+	clear: both;
+	color: #333;
+	line-height: 1.5;
+	margin: 6px;
+	padding: 10px;
+}
+#newsitem img.left {
+	float: left;
+}
+#newsitem img.right {
+	float: right;
+}
+#newsitem .title {
+	color: #0066CC;
+	font: bold 1.2em Tahoma,sans-serif;
+	padding: 3px 4px;
+}
+#newsitem .body {
+	font-family: "Trebuchet MS",Tahoma,sans-serif;
+	font-size: 0.9em;
+	text-align: justify;
+}
+
+
+/* Right side */
+#content_right {
+	width: 331px;
+	position: absolute;
+	top: 116px;
+	left: 620px;
+}
+
+#links a {
+	background: url(bg_navitem.gif) repeat-x #FFF;
+	display: block;
+	font: bold 0.8em Verdana,Tahoma,sans-serif;
+	padding: 6px 0 8px 8px;
+	text-decoration: none; color: #333;
+}
+#links a:hover {
+	color: #0080DD; background-position: left bottom;
+}
+.linea {
+	height: 1px; background-color: #EEEEF5;
+}
+.title {
+	background: #333 url(bgsubtitle.gif) repeat-x;
+	color: #FFF;
+	font: normal 85% Tahoma,sans-serif;
+	padding: 5px 8px;
+}
+
+#content_left .title {
+	margin: 10px 0px 10px 0px;
+}
+
+/* Footer */
+#footer {
+	background: #F0F0F0 url(bgdate.gif) repeat-x;
+	border: 1px solid #EEE;
+	color: #FFF;
+	margin-left: 6px;
+	width: 581px;
+}
+#footer .copyright {
+	padding: 6px 12px;
+}
+#footer a {
+	color: #FFF;
+	font: bold 1em "Trebuchet MS",sans-serif;
+	text-decoration: none;
+}
