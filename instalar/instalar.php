@@ -126,6 +126,7 @@
 	$".$nop."micd['discos_nuevos']	= 20; // los ultimos discos agregados que seran mostrados en la pagina web principal
 
 	// otros archivos a incluir
+	require_once($".$nop."micd['dir'].\"/inc/config_shared.inc.php\");
 	require_once($".$nop."micd['dir'].\"/inc/functions.inc.php\");
 	require_once($".$nop."micd['dir'].\"/inc/actions.inc.php\");
 
