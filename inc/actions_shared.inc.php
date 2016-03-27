@@ -17,7 +17,7 @@
 	}
 	if(!$idioma_loaded) {
 		if(file_exists($micd['site']['dir']."/lang/".$micd['site']['lang']['default'].".php"))
-			require_once($micd['site']['dir']."/lang/".$micd['lang']['default'].".php");
+			require_once($micd['site']['dir']."/lang/".$micd['site']['lang']['default'].".php");
 		else
 			exit("Lo sentimos pero no se ha encontrado ninguna definición de idiomas y la página no puede seguir siendo mostrada.");
 	}
